@@ -1,0 +1,1 @@
+war file in nexus http://localhost:8081/#browse/search=keyword%3D%22kubetest%2F1%2Fv1%2F1-v1-java.war%22:bf0bcff339beef0648b93edc19672cdf
