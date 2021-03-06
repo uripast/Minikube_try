@@ -1,1 +1,12 @@
 war file in nexus http://localhost:8081/#browse/search=keyword%3D%22kubetest%2F1%2Fv1%2F1-v1-java.war%22:bf0bcff339beef0648b93edc19672cdf
+minikube dashboard http://127.0.0.1:63416/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/overview?namespace=default
+
+kubectl logs jenkins-794699f9bc-7q9g4 -n jenkins
+8d952a3bc4f54defae97852b2b393f65
+
+
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=minikube-war \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=5f5fcf87ed7de20beaabf165667c06cd2f1c830c
