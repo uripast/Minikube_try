@@ -16,7 +16,7 @@ stage("Unit tests") {
     testingReporter.maven("UNIT",imageTag)
 }
 
-stage("Build a War file") {
+stage("Build and Deploy War file to Nexus") {
     echo "mvn package"
     String mavenBuildGoals = "package -DskipTests -Dimage.tag=${imageTag} -Dgit.tag=${BRANCH_NAME}-${BUILD_NUMBER}"
     arty.mvn.deployer.deployArtifacts = false
