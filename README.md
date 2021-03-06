@@ -7,4 +7,4 @@
 6. Installed Sonar plugin in jenkins
 7. Used Configure System in jenkins to add the autorization token 
 8. Cloned a hello world war from github
-9. I managed to create a jenkins pipline with complete sdlc having clone from git, build and deploy to nexus war file and docker image and sonar scan.
+9. I managed to create a jenkins pipline with complete sdlc having clone from git, build and deploy to nexus war file docker image and sonar scan.
